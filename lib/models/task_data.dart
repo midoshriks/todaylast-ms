@@ -4,7 +4,7 @@ import 'package:today_ms/models/task.dart';
 class TaskData extends ChangeNotifier {
   List<Task> tasks = [
     Task(name: 'أذكر لله دئما'),
-    Task(name: 'أذهب للعملك باكرا'),
+    Task(name: 'أذهب لعملك باكرا'),
   ];
 
   void addTask(String newTaskTitle) {
